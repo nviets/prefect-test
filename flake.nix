@@ -24,6 +24,7 @@
             python3Packages.dask
             python3Packages.dask-jobqueue
             python3Packages.distributed
+            python3Packages.pandas
           ];
         };
       });
