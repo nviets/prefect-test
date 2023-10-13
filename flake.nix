@@ -21,6 +21,9 @@
           packages = with pkgs.${system}; [
             # add your packages here, then run "nix develop"
             python3Packages.prefect
+            python3Packages.dask
+            python3Packages.dask-jobqueue
+            python3Packages.distributed
           ];
         };
       });
